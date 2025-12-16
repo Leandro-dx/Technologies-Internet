@@ -1,5 +1,5 @@
 
-# Définition
+# Définition 
 
 Le language SQL (Structured Query Language) est un langage de programmation conçu pour gérer et manipuler des bases de données.
 
