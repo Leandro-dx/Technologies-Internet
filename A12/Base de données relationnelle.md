@@ -176,3 +176,42 @@ Pour respecter la 3NF, il faut séparer les données du client dans une table in
 | 3           | Pommes  |
 | 3           | Bananes |
 
+
+# Cardinalité
+
+La cardinalité décrit la manière dont les enregistrements de deux tables sont associés entre eux. Elle indique combien d'occurrences d'une entité peuvent être liées à combien d'occurrences d'une autre entité. C'est un concept fondamental dans la modélisation relationnelle.
+
+## Cardinalité 1:1
+
+Chaque enregistrement d'une table est lié à **au maximum** un seul enregistrement de l'autre table, et inversement.
+
+Exemple : un employé possède 1 seul badge, un badge appartient à un seul employé.
+
+![[Pasted image 20251215173358.png]]
+
+## Cardinalité 1:N
+
+Un enregistrement de la première table peut être lié à plusieurs enregistrements de la seconde table, mais la seconde table ne peut être liée qu'à un seul enregistrement de la première.
+
+Exemple : Une catégorie contient plusieurs livres, mais un livre appartient à une seule catégorie.
+
+![[Pasted image 20251215173409.png]]
+
+## Cardinalité N:N
+
+Un enregistrement dans une table peut être associé à plusieurs enregistrements de l'autre table, et réciproquement.
+
+Dans une base relationnelle, on implémente ce type de relation via une table d'association.
+
+Exemple : Un étudiant peut s'inscrire à plusieurs cours, et chaque cours peut accueillir plusieurs étudiants.
+
+![[Pasted image 20251215173445.png]]
+
+## Cardinalité obligatoire / optionnelle
+
+La cardinalité précise également si la relation est obligatoire ou facultative.
+
+Exemple 1 : Une commande doit obligatoirement être liée à un client, elle ne peut pas exister sans.
+
+Exemple 2 : Une commande peut être liée à une promotion, mais ce n'est pas obligatoire.
+

@@ -1,14 +1,14 @@
 
 # Définition
 
-Langage de script open source créé en 1994 par Rasmus Lerdorf. Il était au départ une simple boîte d'outils en C pour un site personnel, puis est devenu l'n des langages côté serveur les plus utilisés pour la création de sites web dynamiques.
+Langage de script open source créé en 1994 par Rasmus Lerdorf. Il était au départ une simple boîte d'outils en C pour un site personnel, puis est devenu l'un des langages côté serveur les plus utilisés pour la création de sites web dynamiques.
 
 Un site dynamique adapte son contenu selon l'utilisateur et les données.
 
 L'objectif principal d'un script PHP est de :
 - Générer du HTML automatiquement
 - S'exécuter côté serveur
-- Une intégration simple dabs une page HTML
+- Une intégration simple dans une page HTML
 
 Utilité de PHP :
 - Création de sites interactifs
